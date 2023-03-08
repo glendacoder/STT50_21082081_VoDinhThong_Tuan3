@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav li a {
+    display: inline-block;
+    width: 98px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border-radius: 12px;
+}
+
+.nav li:hover a {
+    background: #ff9000;
+}
+
+/*====================CSS BÀI 1====================*/
+#bai1 {
+    margin-top: 200px;
+}
+
+#bai1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: thin dashed #000099;
+}
+
+#bai1 h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 9px;
+    font-style: italic;
+    color: #cc0000;
+    text-decoration: blink;
+}
+
+#bai1 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #ff3399;
+}
+
+#bai1 h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #ffff00;
+}
+
+#bai1 h5 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    font-style: italic;
+    color: #009999;
+}
+
+#bai1 h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: lighter;
+    color: #009900;
+}
+/*====================CSS BÀI 2====================*/
+
+#bai2 {
+    margin-top: 200px;
+}
+
+#bai2 .down {
+    margin-top: 100px;
+    width: 600px;
+    height: 100px;
+    box-shadow: 0 0 12px 0 #333;
+}
+
+#bai2 .container {
+    padding: 12px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#bai2 .container span {
+    font-weight: 900;
+    font-size: 25px;
+    width: calc((100% / 3));
+    text-align: center;
+}
+
+#bai2 .container span:first-child {
+    text-shadow: 0 -4px 2px purple;
+}
+
+#bai2 .container span:nth-child(2) {
+    color: purple;
+    background: pink;
+}
+
+#bai2 .container span:nth-child(3) {
+    text-shadow: 0px -12px 0px purple;
+}
+
+#bai2 .container span:nth-child(4) {
+    color: rgba(195, 209, 65, 0.3);
+    text-shadow: 0 0 15px rgba(218, 200, 46, 0.5),
+        0 0 10px rgba(218, 200, 46, 0.5);
+}
+
+#bai2 .container span:nth-child(5) {
+    color: rgba(206, 13, 13, 0.3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(172, 18, 18, 0.5), 0 0 10px rgba(104, 7, 7, 0.5);
+}
+
+#bai2 .container span:nth-child(6) {
+    color: lightblue;
+    background: darkblue;
+    text-shadow: 0 0 5px rgb(24, 12, 126), 0 0 10px rgb(24, 12, 126);
+}
+
+#bai2 .down > p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 970;
+    background: purple;
+}
+/*====================CSS BÀI 3====================*/
+#bai3 {
+    margin-top: 200px;
+}
+
+#bai3 table,
+#bai3 th,
+#bai3 td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+#bai3 .content table tr:first-child {
+    background: #ccc;
+}
+
+#bai3 .content table tr:last-child {
+    background: #ccc;
+}
+
+#bai3 .color {
+    background: blue;
+}
+
+/*====================CSS BÀI 4====================*/
+#bai4 {
+    margin-top: 200px;
+}
+
+#bai4 table,
+#bai4 th,
+#bai4 td {
+    border: 1px solid darkred;
+    border-collapse: collapse;
+}
+
+#bai4 thead {
+    background: darkred;
+    color: #fff;
+}
+
+.right {
+    text-align: right;
+}
+/*====================CSS BÀI 5====================*/
+#bai5 {
+    margin-top: 200px;
+}
+
+#bai5 .container {
+    width: 500px;
+    height: 200px;
+}
+
+#bai5 .example1 {
+    background-image: url(/image/img_flwr.gif), url(/image/paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+/*====================CSS BÀI 6====================*/
+
+#bai6 {
+    margin-top: 200px;
+}
+
+#bai6 .container {
+    padding: 16px;
+}
+
+#bai6 .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bai6 .row .col {
+    width: 30%;
+}
+
+#bai6 .row .col p:last-child {
+    margin-top: 20px;
+}
+
+/*====================CSS BÀI 7====================*/
+#bai7 {
+    margin-top: 200px;
+}
+
+#bai7 .news {
+    column-count: 3;
+    column-gap: 40px;
+
+    /* định dạng thanh ngăn cách */
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+
+    padding: 5px;
+}
+/*====================CSS BÀI 8====================*/
+#bai8 {
+    margin-top: 200px;
+}
+
+#bai8 .box {
+    margin-bottom: 50px;
+    width: 800px;
+}
+
+#bai8 .box1 {
+    height: 150px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #85c226 #f7c200 #4493a0 #df127b;
+}
+
+#bai8 .box2 {
+    height: 150px;
+    border-style: solid dotted groove double;
+    border-width: 15px;
+    border-color: #85c226 #f7c200 #4493a0 #df127b;
+}
+
+#bai8 .box3 {
+    height: 150px;
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+    border-color: #85c226 #f7c200 #4493a0 #df127b;
+}
+
+#bai8 .box4 {
+    height: 150px;
+    border-style: solid;
+    border-radius: 0 30px 70px 20px;
+    border-width: 15px;
+    border-color: #85c226 #f7c200 #4493a0 #df127b;
+}
+
+#bai8 .box5 {
+    width: 250px;
+    height: 100px;
+    border-style: groove ridge dashed groove;
+    border-radius: 100px 100px 0 0;
+    border-width: 4px 30px;
+    border-color: #85c226;
+}
+
+#bai8 .box6 {
+    width: 250px;
+    height: 100px;
+    border: 5px solid #f7c200;
+    border-radius: 20px;
+}
+
+#bai8 .box7 {
+    width: 250px;
+    height: 100px;
+    border-width: 0 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+}
+
+#bai8 .box8 {
+    width: 250px;
+    height: 100px;
+    border: 5px solid #4493a0;
+    border-radius: 20px 100px 100px 20px;
+}
+
+#bai8 .box9 {
+    width: 250px;
+    height: 100px;
+    border-width: 4px 30px;
+    border-style: solid;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    border-radius: 0 120px;
+    background: #85c226;
+}
+
+#bai8 .box10 {
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    background: #428bca;
+}
+
+/*====================CSS BÀI 9====================*/
+
+/*====================CSS BÀI 10====================*/
+
+#bai10 {
+    margin-top: 200px;
+}
+
+#bai10 .box {
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+#bai10 .animated {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 100px;
+    background: #ffcc00;
+}
+
+@keyframes scroll {
+    to {
+        left: 100%;
+        -webkit-transform: rotate(180deg);
+    }
+}
